@@ -1,10 +1,10 @@
 import express from 'express'
-import userRoter from './routes/user.js'
-import projectRoter from './routes/project.route.js'
-import ticketsRouter from './routes/project.tickets.js'
+import userRoter from './src/routes/user.js'
+import projectRoter from './src/routes/project.route.js'
+import ticketsRouter from './src/routes/project.tickets.js'
 import cors from 'cors'
 import cookieParser from 'cookie-parser'
-import { connectDB } from './db.js'
+import { connectDB } from './src/db.js'
 
 const app = express()
 
